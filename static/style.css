@@ -25,6 +25,7 @@ h1 {
 	font-size: 5.8vmax;
 	font-weight: 400;
 	color: #000000;
+	text-shadow: 5px 5px 0px rgba(150, 150, 150, 0.06);
 }
 
 h3, h4, h5, h6 {
@@ -51,6 +52,8 @@ p {
 	padding-bottom: 3vmax;
 	width: 100%;
 	border-radius: 0px;
+    box-shadow: 5px 5px 0px rgba(150, 150, 150, 0.06);
+
 }
 
 .container-fluid {
@@ -75,6 +78,7 @@ and (max-device-width : 667px) {
 		font-size: 6vmax;
 		font-weight: 400;
 		color: #000000;
+		text-shadow: 5px 5px 0px rgba(150, 150, 150, 0.06);
 	}
 
 	h3, h4, h5, h6 {
@@ -98,6 +102,29 @@ and (max-device-width : 667px) {
 		font-size: 1.8vmax;
 		line-height: 135%;
 		text-align: center;
+	}
+
+	.well {
+		width: 97.45%;
+		display: table;
+		padding-right: 5vw;
+		padding-left: 5vw;
+		box-shadow: 5px 5px 0px rgba(150, 150, 150, 0.06);
+
+	}
+
+	.btn {
+		background-color: #007AFF;
+		font-family: 'Inconsolata';
+		font-size: 2.6vmax;
+		letter-spacing: 1px;
+		color: #FFFFFF;
+		padding-top: 3vmax;
+		padding-bottom: 3vmax;
+		width: 100%;
+		border-radius: 0px;
+	    box-shadow: 5px 5px 0px rgba(150, 150, 150, 0.06);
+
 	}
 
 }
@@ -134,6 +161,8 @@ and (max-device-width : 480px) {
 	display: table;
 	padding-right: 5vw;
 	padding-left: 5vw;
+	box-shadow: 5px 5px 0px rgba(150, 150, 150, 0.06);
+
 }
 
 footer {
