@@ -83,8 +83,7 @@ and (max-device-width : 667px) {
 
 	h3, h4, h5, h6 {
 		font-family: 'Inconsolata', sans-serif;
-		color: #ffffff;
-
+		color: #555;
 	}
 
 	p {
