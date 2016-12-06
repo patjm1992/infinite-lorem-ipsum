@@ -71,7 +71,7 @@ and (max-device-width : 667px) {
 
 	h1 {
 		font-family: 'Inconsolata', sans-serif;
-		font-size:1.2vmax;
+		font-size: 1.5vmax;
 		font-size: 6vmax;
 		font-weight: 400;
 		color: #000000;
@@ -90,6 +90,15 @@ and (max-device-width : 667px) {
 		line-height: 135%;
 		text-indent: 5vmin;
 	}
+
+	.footer-p p {
+		font-family: 'Inconsolata';
+		color: #555;
+		font-size: 1.8vmax;
+		line-height: 135%;
+		text-align: center;
+	}
+
 }
 
 /* iPhone 5 */
