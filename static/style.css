@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond|Roboto:400');
+
+@font-face {
+	font-family: Hoefler;
+	src: url(Hoefler.ttf);
+}
+
+body {
+	background-color: #EFEFF4;
+	text-rendering: optimizeLegibility;
+	-moz-font-feature-settings: "kern", "liga", "clig", "calt";
+    -ms-font-feature-settings: "kern", "liga", "clig", "calt";
+    -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
+    font-feature-settings: "kern", "liga", "clig", "calt";
+}
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 5.5vmax;
+	font-weight: 400;
+	color: #000000;
+}
+
+h3, h4, h5, h6 {
+	font-family: 'Roboto', sans-serif;
+	color: #555;
+}
+
+p {
+ 	font-family: 'Hoefler',  sans-serif;
+	color: rgb(40, 40, 40);
+	font-weight: 400;
+	font-size: 1.8vmax;
+	line-height: 135%;
+	text-indent: 5vmin;
+}
+
+/*
+.spacer-vert {
+	margin-top: 1.2vmax;
+	margin-bottom: 1.2vmax;
+}
+
+.btn {
+	background-color: #007AFF;
+	font-family: 'Roboto';
+	font-size: 2.6vmax;
+	letter-spacing: 1px;
+	color: #FFFFFF;
+	padding-top: 3vmax;
+	padding-bottom: 3vmax;
+	width: 100%;
+	border-radius: 0px;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+hr {
+  -moz-border-bottom-colors: none;
+  -moz-border-image: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: #EEEEEE -moz-use-text-color rgb(50, 50, 50);
+  border-style: solid none;
+  border-width: 1px 0;
+  margin: 18px 0;
+}
+
+.footer-bg {
+	width: 100%;
+	padding-top: 2.5vmax;
+	background-color: #DCDCE0;
+}
+
+.footer-bg p {
+	font-family: 'Roboto';
+	color: #555;
+	font-size: 1.3vmax;
+	line-height: 135%;
+}
+
+.container-fluid {
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 2.5vmax;
+}
+
+.row {
+	max-width: 100%;
+
+}*/
