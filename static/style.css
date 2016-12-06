@@ -79,7 +79,8 @@ and (max-device-width : 667px) {
 
 	h3, h4, h5, h6 {
 		font-family: 'Inconsolata', sans-serif;
-		color: #555;
+		color: #ffffff;
+
 	}
 
 	p {
@@ -157,7 +158,7 @@ hr {
   -moz-border-left-colors: none;
   -moz-border-right-colors: none;
   -moz-border-top-colors: none;
-  border-color: #EEEEEE -moz-use-text-color rgb(200, 200, 200);
+  border-color: #EEEEEE -moz-use-text-color rgb(230, 230, 230);
   border-style: solid none;
   border-width: 1px 0;
   margin: 18px 0;
