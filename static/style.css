@@ -64,9 +64,31 @@ p {
 and (min-device-width : 375px)
 and (max-device-width : 667px) {
 	.container-fluid {
-		padding-right: 5vmax;
-		padding-left: 5vmax;
+		padding-right: 5.2vmax;
+		padding-left: 5.2vmax;
 		min-height: 100% !important;
+	}
+
+	h1 {
+		font-family: 'Inconsolata', sans-serif;
+		font-size:1.2vmax;
+		font-size: 6vmax;
+		font-weight: 400;
+		color: #000000;
+	}
+
+	h3, h4, h5, h6 {
+		font-family: 'Inconsolata', sans-serif;
+		color: #555;
+	}
+
+	p {
+	 	font-family: 'Inconsolata',  sans-serif;
+		color: rgb(40, 40, 40);
+		font-weight: 400;
+		font-size: 2.1vmax;
+		line-height: 135%;
+		text-indent: 5vmin;
 	}
 }
 
