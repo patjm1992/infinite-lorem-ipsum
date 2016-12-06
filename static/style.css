@@ -74,7 +74,7 @@ and (max-device-width : 667px) {
 
 	h1 {
 		font-family: 'Inconsolata', sans-serif;
-		font-size: 1.5vmax;
+		font-size: 1.8vmax;
 		font-size: 6vmax;
 		font-weight: 400;
 		color: #000000;
@@ -98,13 +98,13 @@ and (max-device-width : 667px) {
 	.footer-p p {
 		font-family: 'Inconsolata';
 		color: #555;
-		font-size: 1.8vmax;
+		font-size: 12.0vmax;
 		line-height: 135%;
 		text-align: center;
 	}
 
 	.well {
-		width: 97.45%;
+		width: 98.45%;
 		display: table;
 		padding-right: 5vw;
 		padding-left: 5vw;
