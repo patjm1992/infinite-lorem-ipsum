@@ -28,4 +28,4 @@ def generate():
 
 
 if __name__ == '__main__':
-	app.run(host='', debug=True)
+	app.run(host='0.0.0.0')
