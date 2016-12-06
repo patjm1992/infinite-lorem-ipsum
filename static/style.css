@@ -59,6 +59,34 @@ p {
 	min-height: 100% !important;
 }
 
+/* iPhone 6 */
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
+	.container-fluid {
+		padding-right: 5vmax;
+		padding-left: 5vmax;
+		min-height: 100% !important;
+	}
+}
+
+/* iPhone 5 */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+
+}
+
+/* iPhone 4 */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+
+
+}
+
+
+
 .row {
 	margin-top: 5vh;
 	margin-bottom: 5vh;
