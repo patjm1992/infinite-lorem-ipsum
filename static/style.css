@@ -1,9 +1,14 @@
 
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond|Roboto:400');
+ @import url('https://fonts.googleapis.com/css?family=Inconsolata');
 
 @font-face {
 	font-family: Hoefler;
 	src: url(Hoefler.ttf);
+}
+
+html {
+	min-height: 100%;
 }
 
 body {
@@ -16,19 +21,19 @@ body {
 }
 
 h1 {
-	font-family: 'Roboto', sans-serif;
-	font-size: 5.5vmax;
+	font-family: 'Inconsolata', sans-serif;
+	font-size: 5.8vmax;
 	font-weight: 400;
 	color: #000000;
 }
 
 h3, h4, h5, h6 {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Inconsolata', sans-serif;
 	color: #555;
 }
 
 p {
- 	font-family: 'Hoefler',  sans-serif;
+ 	font-family: 'Inconsolata',  sans-serif;
 	color: rgb(40, 40, 40);
 	font-weight: 400;
 	font-size: 1.8vmax;
@@ -38,7 +43,7 @@ p {
 
 .btn {
 	background-color: #007AFF;
-	font-family: 'Roboto';
+	font-family: 'Inconsolata';
 	font-size: 2.6vmax;
 	letter-spacing: 1px;
 	color: #FFFFFF;
@@ -49,8 +54,65 @@ p {
 }
 
 .container-fluid {
-	padding-right: 3vmax;
-	padding-left: 3vmax;
+	padding-right: 10vmax;
+	padding-left: 10vmax;
+	min-height: 100% !important;
+}
+
+.row {
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+.well {
+	width: 97.45%;
+	display: table;
+	padding-right: 5vw;
+	padding-left: 5vw;
+}
+
+footer {
+	bottom: 0;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 10vh;
+}
+
+.footer-p p {
+	font-family: 'Inconsolata';
+	color: #555;
+	font-size: 1.2vmax;
+	line-height: 135%;
+	text-align: center;
+}
+
+
+hr {
+  -moz-border-bottom-colors: none;
+  -moz-border-image: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: #EEEEEE -moz-use-text-color rgb(170, 170, 170);
+  border-style: solid none;
+  border-width: 1px 0;
+  margin: 18px 0;
+  margin-right: 20%;
+  margin-left: 20%
+}
+
+a {
+	color: #007AFF;
+}
+
+a:hover {
+	text-decoration: none;
+	opacity: 0.5;
 }
 
 /*
