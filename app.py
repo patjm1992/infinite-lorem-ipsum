@@ -1,5 +1,4 @@
 from flask import Flask, render_template
-import numpy
 import markov
 
 # create the application object
