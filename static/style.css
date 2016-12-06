@@ -36,6 +36,23 @@ p {
 	text-indent: 5vmin;
 }
 
+.btn {
+	background-color: #007AFF;
+	font-family: 'Roboto';
+	font-size: 2.6vmax;
+	letter-spacing: 1px;
+	color: #FFFFFF;
+	padding-top: 3vmax;
+	padding-bottom: 3vmax;
+	width: 100%;
+	border-radius: 0px;
+}
+
+.container-fluid {
+	padding-right: 3vmax;
+	padding-left: 3vmax;
+}
+
 /*
 .spacer-vert {
 	margin-top: 1.2vmax;
